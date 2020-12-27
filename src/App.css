@@ -26,6 +26,10 @@
   font-weight: 500;
 }
 
+.nav-link:hover {
+  border-bottom: 2px solid white;
+}
+
 .navbar {
   background-color: #111;
 }

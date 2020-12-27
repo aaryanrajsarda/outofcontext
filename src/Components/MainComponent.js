@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./HeaderComponent";
-import Footer from "./FooterComponent";
 import Home from "./HomePageComponent";
 import About from "./AboutComponent";
 import Contact from "./ContactComponent";
@@ -18,7 +17,6 @@ function Main() {
         <Route exact path="/aboutus" component={About} />
         <Redirect to="/home" />
       </Switch>
-      {/*<Footer />*/}
     </>
   );
 }

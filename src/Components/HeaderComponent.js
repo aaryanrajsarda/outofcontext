@@ -7,12 +7,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   Jumbotron,
 } from "reactstrap";
+import Featured from "./FeaturedComponent";
 
 const Header = (props) => {
   const [isIsNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -77,9 +74,7 @@ const Header = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
-      {/*<Jumbotron>
-        <img src="images/artwork.jpg" alt="OOC" height="300px" width="300px" />
-      </Jumbotron>*/}
+      <Featured />
     </>
   );
 };
